@@ -88,7 +88,9 @@ abstract class SampleBasedTest {
 			throw new RuntimeException(e);
 		} finally {
 			try {
+			    if (reader != null){
 				reader.close();  // PMD 4.2.5では受け取ったReaderを閉じてくれているが、念のため自分でも閉じる
+			    }
 			} catch (IOException ignore) {
 			}
 		}

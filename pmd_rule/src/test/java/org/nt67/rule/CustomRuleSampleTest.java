@@ -12,12 +12,11 @@ public class CustomRuleSampleTest extends SampleBasedTest {
 
     @Test
     public void testVerifyNgRules() {
-        assertViolation("NG");
+        assertViolation("CustomRuleSample");
     }
     
     @Test
     public void testVerifyOkRules() {
-    	assertPass("OK");
+    	assertPass("CustomRuleSampleCode");
     }
-
 }
