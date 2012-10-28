@@ -1,0 +1,5 @@
+#surefire
+#Sun Oct 28 14:52:06 JST 2012
+user.dir=/home/takeda/repos/rule_test/pmd_rule
+localRepository=/home/takeda/.m2/repository
+basedir=/home/takeda/repos/rule_test/pmd_rule
